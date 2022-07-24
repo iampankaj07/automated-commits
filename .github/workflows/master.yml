@@ -2,7 +2,7 @@ name: Automated Daily Commit
 
 on:
   schedule:
-    - cron:  '59 * * *'
+    - cron:  '15 0 * * *'
   push:
     paths:
       - ".env"
